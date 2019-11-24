@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.user_posts {
+  background-color: azure;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+.user_posts td,
+.user_posts th {
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.user_posts tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user_posts tr:hover {
+  background-color: black;
+}
+
+.user_posts th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(10, 128, 10);
+  color: white;
+}
+.comm_align_left {
+  text-align: left;
+}
+.post_header {
+  border: 1px solid #ddd;
+}
+.comments {
+  border: inset;
+}

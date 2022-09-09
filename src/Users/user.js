@@ -23,7 +23,7 @@ export class UserDetails extends React.Component {
         Constants.Jsonplaceholder + Constants.UserURL + this.props.post.userId
       )
       .then(response => {
-        this.setState({ userDetailList: [response.data] });
+        this.setState({ userDetailList: [response.data] }); 
       });
   }
   backToPageList = () => {
